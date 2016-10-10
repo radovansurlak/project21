@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-weight: 200;
+  font-size: 101%;
+}
+
+.headline {
+  padding-top: 4vw;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3.5em;
+}
+
+.subheadline {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 3vw 0;
+  font-size: 1.75em;
+
+}
+
+.screen {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.benefit-bar {
+  padding: 6vw 0;
+  width: 25vw;
+  img {
+    height: 5vw;
+  }
+  .subheadline {
+    text-align: center;
+    padding: 1vw 0;
+    width: inherit;
+    font-family: "Playfair Display", sans-serif;
+  }
+}
+
+#bg-vid {
+  width: 100vw;
+  height: auto;
+}
+
+#bg-cont {
+  z-index: 999;
+}
+
+//SECTIONS
+
+#description {
+  height: auto;
+  background-color: #699980;
+  color: white;
+  text-align: center;
+}
+
+#benefits {
+  height: 50vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+#events {
+  background-color: #D76841;
+
+}
+
+//
+
+#headline {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 4em;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 30vh;
+  font-weight: 700;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+#subheadline {
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+  width: 60vw;
+  left: 20vw;
+  top: 42vh;
+  font-weight: 300;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+#menu {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  transition: background-color 500ms ease;
+
+  #logo {
+    image-rendering: crisp-edges;
+    display: inline-block;
+    position: absolute;
+    left: 0.5vw;
+    top: -3vw;
+    height: 17vw;
+    transition: height 350ms ease;
+  }
+  ul {
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    #cta {
+      background-color: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.6);
+      border-radius: 10px;
+      margin: 0.5vw;
+      margin-right: 2vw;
+    }
+  }
+  ul li {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    color: white;
+    padding: 0.7vw;
+  }
+
+}
