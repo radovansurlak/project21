@@ -80,9 +80,14 @@ hr {
     padding: 1vw 0;
     width: inherit;
     font-family: Sanchez, serif, sans-serif; }
+  .event-bar:nth-child(1) button {
+    background-image: url(../media/button2.png); }
+  .event-bar:nth-child(2) button {
+    background-image: url(../media/button1.png); }
+  .event-bar:nth-child(3) button {
+    background-image: url(../media/button3.png); }
   .event-bar button {
     margin-top: 0.6vw;
-    background-color: #DD8D29;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1vw;
@@ -96,7 +101,7 @@ hr {
     .event-bar button:focus {
       outline: none; }
     .event-bar button:hover {
-      background-color: #DDA330; }
+      filter: brightness(135%); }
     .event-bar button:active {
       transform: scale(0.9); }
 
@@ -219,7 +224,8 @@ hr {
     display: block;
     margin: 0 auto;
     margin-top: 0.6vw;
-    background-color: #DD8D29;
+    background-image: url(../media/menu-bg.png);
+    background-size: cover;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1vw 0;
@@ -230,11 +236,11 @@ hr {
     text-decoration: none;
     cursor: pointer;
     border: none;
-    transition: background-color 250ms; }
+    transition: all 250ms; }
     #contact button:focus {
       outline: none; }
     #contact button:hover {
-      background-color: #DDA330; }
+      filter: brightness(135%); }
 
 #social-icons {
   padding-top: 3vw;

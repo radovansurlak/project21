@@ -104,9 +104,21 @@ hr {
     width: inherit;
     font-family: $headline-font, sans-serif;
   }
+
+  &:nth-child(1) button {
+    background-image: url(../media/button2.png);
+  }
+
+  &:nth-child(2) button {
+    background-image: url(../media/button1.png);
+  }
+
+  &:nth-child(3) button {
+    background-image: url(../media/button3.png);
+  }
+
   button {
   margin-top: 0.6vw;
-  background-color: #DD8D29;
    -moz-border-radius: 5px;
    -webkit-border-radius: 5px;
    padding: 1vw;
@@ -119,14 +131,14 @@ hr {
    transition: all 250ms;
    &:focus {
      outline: none;
-   }
+    }
    &:hover {
-     background-color: #DDA330;
-   }
+     filter: brightness(135%);
+    }
    &:active {
      transform: scale(0.9);
+    }
    }
-  }
 }
 
 
@@ -292,7 +304,8 @@ $gallery-width: 100vw;
     display: block;
     margin: 0 auto;
   margin-top: 0.6vw;
-  background-color: #DD8D29;
+  background-image: url(../media/menu-bg.png);
+  background-size: cover;
    -moz-border-radius: 5px;
    -webkit-border-radius: 5px;
    padding: 1vw 0;
@@ -303,12 +316,12 @@ $gallery-width: 100vw;
    text-decoration: none;
    cursor: pointer;
    border:none;
-   transition: background-color 250ms;
+   transition: all 250ms;
    &:focus {
      outline: none;
    }
    &:hover {
-     background-color: #DDA330;
+     filter: brightness(135%);
    }
   }
   }
