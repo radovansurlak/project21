@@ -193,6 +193,9 @@ hr {
   background-color: #F3F4E5; }
   #contact .headline {
     color: #699980; }
+  #contact #mail-sent {
+    text-align: center;
+    font-size: 2vw; }
   #contact input {
     display: inline;
     width: 30%;

@@ -1,21 +1,30 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
   <title>BRING IN | Doc Lounge Aarhus</title>
 
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <!-- STYLESHEETS -->
+
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/fonts.css">
 
-<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <!-- JQUERY CDN -->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+
+  <!-- INTRO SECTION -->
 
   <section id="intro">
 
@@ -37,11 +46,15 @@
       </nav>
     </header>
 
+  <!-- VIDEO BACKGROUND -->
+
     <div id="bg-cont">
 
       <video id="bg-vid" loop muted controls autoplay poster="media/poster.png">
         <source src="media/bg.mp4" type="video/mp4">
       </video>
+
+  <!-- VIDEO TEXT OVERLAY -->
 
       <div id="vid-overlay">
         <h1 id="headline">Meet the DocLounge</h1>
@@ -49,8 +62,6 @@
       </div>
 
     </div>
-
-
 
   </section>
 
@@ -244,11 +255,35 @@
 
   <!-- CONTACT SECTION -->
 
+
+  <!-- FORM SECTION -->
+
   <section class="section" id="contact">
+
+    <!-- PHP FORM HANDLING -->
+
+    <?php
+    
+    if(isset($_POST['submit'])){
+      $to = "radovansurlak@gmail.com";
+      $from = $_POST['user_mail'];
+      $name = $_POST['user_name'];
+      $subject = "Form submission";
+      $subject2 = "Copy of your form submission";
+      $message = $name . " wrote the following:" . "\n\n" . $_POST['user_message'];
+      $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+      $headers = "From:" . $from;
+      $headers2 = "From:" . $to;
+      mail($to,$subject,$message,$headers);
+      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+      echo "<h1 id=\"mail-sent\">Mail Sent. Thank you " . $name . ", we will contact you shortly.</h1>";
+      }
+    ?>
 
     <h2 class="headline">Contact us</h2>
 
-    <form action="/my-handling-form-page" method="post">
+    <form action="#contact" method="post">
 
       <div id="form-wrap">
           <input type="text" id="name" name="user_name" placeholder="Name*"/>
@@ -258,7 +293,7 @@
           <textarea id="msg" name="user_message" placeholder="Message*" ></textarea>
 
 
-        <button type="submit">Submit</button>
+        <button type="submit" name="submit">Submit</button>
 
     </form>
 
@@ -274,13 +309,6 @@
     </div>
 
   </section>
-
-
-
-
-
-
-
 
 
 </body>
