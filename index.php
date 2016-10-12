@@ -5,11 +5,11 @@
 
 <head>
 
-  <title>BRING IN | Doc Lounge Aarhus</title>
+  <title>BRING IN | DocLounge Aarhus</title>
 
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Get customers and promote your business by bringing DocLounge in! Learn more about all the benefits and features here.">
+  <meta name="author" content="Kristine, Marketa, Radovan, Sissel">
 
   <!-- STYLESHEETS -->
 
@@ -263,7 +263,7 @@
     <!-- PHP FORM HANDLING -->
 
     <?php
-    
+
     if(isset($_POST['submit'])){
       $to = "radovansurlak@gmail.com";
       $from = $_POST['user_mail'];
