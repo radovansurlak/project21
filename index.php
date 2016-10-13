@@ -113,7 +113,7 @@ can enjoy our events just as much as our visitors.</p>
 
   <section class="section" id="events">
 
-    <h1 class="headline">Events</h1>
+    <h1 class="headline">Upcoming<br>Events</h1>
 
     <div class="screen">
 
