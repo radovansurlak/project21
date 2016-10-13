@@ -94,7 +94,7 @@ hr {
   .event-bar:nth-child(3) button {
     background-image: url(../media/button3.png); }
   .event-bar button {
-    margin-top: 0.6vw;
+    margin-top: 2vw;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1vw;
@@ -260,9 +260,7 @@ hr {
     height: 5vw;
     transition: all 250ms; }
     #social-icons .social img {
-      width: 80%;
-      fill: #699980;
-      color: #699980; }
+      width: 80%; }
     #social-icons .social:hover {
       transform: scale(1.2); }
     #social-icons .social:active {
