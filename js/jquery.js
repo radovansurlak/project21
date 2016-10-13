@@ -18,12 +18,12 @@ $( window ).resize(function() {
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
-        $("#logo").css("height","11vw");
+        $("#logo").css({height:"4.5vw",top:"0.6vw"});
         $("#menu").delay("300ms").css("height","5vw");
     }
     else {
         $("#menu").css("height","0vw");
-        $("#logo").delay("300ms").css("height","17vw");
+        $("#logo").delay("300ms").css({height:"7vw",top:"2vw"});
 
     }
 });

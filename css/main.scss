@@ -27,8 +27,9 @@ hr {
 }
 
 .headline {
+  text-transform: uppercase;
   text-align: center;
-  font-family: $headline-font, sans-serif;
+  font-family: Monoton, sans-serif;
   font-size: 4vw;
 }
 
@@ -56,7 +57,7 @@ hr {
 .benefit-bar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 25vw;
   img {
     align-self: center;
@@ -163,6 +164,16 @@ hr {
 
 #description {
   height: auto;
+  img {
+    width: 20vw;
+  }
+  .headline,.subheadline {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .subheadline {
+    padding: 1.5vw;
+  }
   background-color: #699980;
   color: white;
   text-align: center;
@@ -242,6 +253,8 @@ $gallery-width: 100vw;
     justify-content: space-between;
     width: 25vw;
     .headline {
+      text-transform: capitalize;
+      font-family: $headline-font;
       font-size: 2vw;
     }
     p {
@@ -353,14 +366,14 @@ $gallery-width: 100vw;
       }
     }
 
-
-
-
 //
 
 
 #vid-overlay {
   width: 100vw;
+  padding: 1vw;
+  box-shadow: 0 0 30px 5px rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.2);
   position: absolute;
 }
 
@@ -375,6 +388,7 @@ $gallery-width: 100vw;
 }
 
 #subheadline {
+  text-align: center;
   padding-top: 0.5em;
   width: 70%;
   margin: 0 auto;
@@ -412,9 +426,8 @@ $gallery-width: 100vw;
     display: inline-block;
     position: absolute;
     left: 1.5vw;
-    top: -3vw;
-    height: 17vw;
-    transition: height 350ms ease;
+    top: 0.6vw;
+    transition: all 350ms ease;
   }
   ul {
     height: 5vw;

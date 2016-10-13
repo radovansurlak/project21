@@ -56,8 +56,8 @@
   <!-- VIDEO TEXT OVERLAY -->
 
       <div id="vid-overlay">
-        <h1 id="headline">Meet the DocLounge</h1>
-        <h2 id="subheadline">Chia craft beer assumenda lumbersexual. Pour-over occupy kogi sint labore celiac quinoa, slow-carb pitchfork et chicharrones. Freegan tote bag cardigan, dreamcatcher tumblr williamsburg gochujang authentic vape lyft affogato pug tofu mollit.</h2>
+        <h1 id="headline">Meet Doc Lounge</h1>
+        <h2 id="subheadline">We are all about grasping what's happening now and sparking thoughts and conversations in those who are hungry for documentaries.</h2>
       </div>
 
     </div>
@@ -68,8 +68,8 @@
 
   <section class="section" id="description">
 
-    <h1 class="headline">Description<br>of the campaign</h1>
-    <h2 class="subheadline">Chia craft beer assumenda lumbersexual. Pour-over occupy kogi sint labore celiac quinoa, slow-carb pitchfork et chicharrones. Freegan tote bag cardigan, dreamcatcher tumblr williamsburg gochujang authentic vape lyft affogato pug tofu mollit. <br><br> Do lumbersexual sriracha, artisan ea pok pok put a bird on it officia health goth irony tumblr elit you probably haven't heard of them tofu deep v. La croix readymade hella, distillery enamel pin est consequat whatever mixtape heirloom roof party mumblecore migas stumptown vice</h2>
+    <h1 class="headline">About</h1>
+    <h2 class="subheadline">Doc Lounge screens previews of the best new documentary films, alongside an inspiring programme of music, special guests, Q&As, performances, talks, and surprises.</h2><h2 class="subheadline"> Our special film events take place at 19 dedicated Doc Lounge clubs across four Nordic countries, all based in non-cinema venues. We also work with a range of collaborators from festivals and cinemas to libraries, conferences, youth groups and more - bringing the right films to the right audiences at the right time.</h2>
 
   </section>
 
@@ -82,19 +82,27 @@
       <div class="benefit-bar">
         <img src="media/magnet.png" alt="people icon">
         <h2 class="subheadline">Reach broader audience</h2>
-        <p class="description">Chia craft beer assumenda lumbersexual. Pour-over occupy kogi sint labore celiac quinoa, slow-carb pitchfork et chicharrones. Freegan tote bag cardigan, dreamcatcher tumblr williamsburg gochujang authentic vape lyft affogato pug tofu mollit. Do lumbersexual sriracha</p>
+        <p class="description">Get more people to know about you. Our screenings attract diverse
+people and personalities, who will finally
+learn, who you are. So you can benefit from
+more potential customers.</p>
       </div>
 
       <div class="benefit-bar">
         <img src="media/megaphone.png" alt="megaphone icon">
         <h2 class="subheadline">Promote your business</h2>
-        <p class="description">Chia craft beer assumenda lumbersexual. Pour-over occupy kogi sint labore celiac quinoa, slow-carb pitchfork et chicharrones. Freegan tote bag cardigan, dreamcatcher tumblr williamsburg gochujang authentic vape lyft affogato pug tofu mollit. Do lumbersexual sriracha</p>
+        <p class="description">Your business, brand and venue get seen by many new people.
+Our events will get them talking, and they will also talk about you.
+Because you were the one who made it happen this time.</p>
       </div>
 
       <div class="benefit-bar">
         <img src="media/money.png" alt="piggy bank icon">
         <h2 class="subheadline">Add value to your business</h2>
-        <p class="description">Chia craft beer assumenda lumbersexual. Pour-over occupy kogi sint labore celiac quinoa, slow-carb pitchfork et chicharrones. Freegan tote bag cardigan, dreamcatcher tumblr williamsburg gochujang authentic vape lyft affogato pug tofu mollit. Do lumbersexual sriracha</p>
+        <p class="description">Your business now associates with
+creativity, innovation and goodwill besides
+your regular character. And your colleagues and employees
+can enjoy our events just as much as our visitors.</p>
       </div>
 
     </div>

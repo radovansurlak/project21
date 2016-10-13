@@ -18,8 +18,9 @@ hr {
   border: 1px solid white; }
 
 .headline {
+  text-transform: uppercase;
   text-align: center;
-  font-family: Sanchez, serif, sans-serif;
+  font-family: Monoton, sans-serif;
   font-size: 4vw; }
 
 .subheadline {
@@ -46,7 +47,7 @@ hr {
 .benefit-bar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 25vw; }
   .benefit-bar img {
     align-self: center;
@@ -127,6 +128,13 @@ hr {
   background-color: #699980;
   color: white;
   text-align: center; }
+  #description img {
+    width: 20vw; }
+  #description .headline, #description .subheadline {
+    margin: 0 auto;
+    width: 70%; }
+  #description .subheadline {
+    padding: 1.5vw; }
 
 #benefits {
   background-color: white;
@@ -180,6 +188,8 @@ hr {
   justify-content: space-between;
   width: 25vw; }
   #testimonials .testimonial-bar .headline {
+    text-transform: capitalize;
+    font-family: Sanchez, serif;
     font-size: 2vw; }
   #testimonials .testimonial-bar p {
     padding: 1vw; }
@@ -268,6 +278,9 @@ hr {
 
 #vid-overlay {
   width: 100vw;
+  padding: 1vw;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute; }
 
 #headline {
@@ -280,6 +293,7 @@ hr {
   color: white; }
 
 #subheadline {
+  text-align: center;
   padding-top: 0.5em;
   width: 70%;
   margin: 0 auto;
@@ -310,9 +324,8 @@ hr {
     display: inline-block;
     position: absolute;
     left: 1.5vw;
-    top: -3vw;
-    height: 17vw;
-    transition: height 350ms ease; }
+    top: 0.6vw;
+    transition: all 350ms ease; }
   #menu ul {
     height: 5vw;
     display: flex;
