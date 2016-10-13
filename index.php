@@ -19,6 +19,7 @@
   <!-- JQUERY CDN -->
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <script   src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="   crossorigin="anonymous"></script>
 
 </head>
 
@@ -301,10 +302,13 @@
 
     <div id="social-icons">
       <div class="social">
-        <a href="https://www.facebook.com/doclounge.aarhus"><img src="media/social/fb.svg"></a>
+        <a  target="_blank" href="https://www.facebook.com/doclounge.aarhus"><img src="media/social/fb.png" alt="facebook icon"></a>
       </div>
       <div class="social">
-        <a href="https://twitter.com/docloungeaarhus"><img src="media/social/twit.svg"></a>
+        <a target="_blank" href="https://twitter.com/docloungeaarhus"><img src="media/social/twit.png" alt="twitter icon"></a>
+      </div>
+      <div class="social">
+        <a href="tel:123-456-789"><img src="media/social/phone.png" alt="call icon"></a>
       </div>
     </div>
 

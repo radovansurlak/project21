@@ -32,17 +32,29 @@ hr {
   justify-content: space-between;
   margin: 0 auto; }
 
+@keyframes shake {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(-12deg); }
+  50% {
+    transform: rotate(12deg); }
+  75% {
+    transform: rotate(-12deg); }
+  100% {
+    transform: rotate(0deg); } }
 .benefit-bar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 25vw; }
-  .benefit-bar:hover img {
-    transform: scale(1.3); }
   .benefit-bar img {
     align-self: center;
     height: 5vw;
     transition: all 200ms; }
+  .benefit-bar:hover img {
+    animation-name: shake;
+    animation-duration: 750ms; }
   .benefit-bar .subheadline {
     text-align: center;
     padding: 1vw 0;
@@ -239,22 +251,22 @@ hr {
 
 #social-icons {
   padding-top: 3vw;
-  width: 10vw;
+  width: 15vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between; }
   #social-icons .social {
     width: 5vw;
-    height: 5vw; }
+    height: 5vw;
+    transition: all 250ms; }
     #social-icons .social img {
-      border-radius: 12%;
-      width: 70%;
+      width: 80%;
       fill: #699980;
-      transition: all 250ms; }
-      #social-icons .social img:hover {
-        transform: scale(1.2); }
-      #social-icons .social img:active {
-        transform: scale(0.9); }
+      color: #699980; }
+    #social-icons .social:hover {
+      transform: scale(1.2); }
+    #social-icons .social:active {
+      transform: scale(0.9); }
 
 #vid-overlay {
   width: 100vw;

@@ -45,19 +45,29 @@ hr {
   margin: 0 auto;
 }
 
+@keyframes shake {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(-12deg);}
+    50%  {transform: rotate(12deg);}
+    75%  {transform: rotate(-12deg);}
+    100% {transform: rotate(0deg);}
+  }
+
 .benefit-bar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 25vw;
-  &:hover img {
-    transform: scale(1.3);
-  }
   img {
     align-self: center;
     height: 5vw;
     transition: all 200ms;
   }
+  &:hover img {
+    animation-name: shake;
+    animation-duration: 750ms;
+  }
+
 
   .subheadline {
     text-align: center;
@@ -322,18 +332,20 @@ $gallery-width: 100vw;
 
   #social-icons {
     padding-top: 3vw;
-    width: 10vw;
+    width: 15vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     .social {
       width: 5vw;
       height: 5vw;
+      transition: all 250ms;
       img {
-        border-radius: 12%;
-        width: 70%;
+        width: 80%;
         fill: #699980;
-        transition: all 250ms;
+        color: #699980;
+      }
+
         &:hover {
           transform: scale(1.2);
         }
@@ -342,7 +354,7 @@ $gallery-width: 100vw;
         }
       }
     }
-  }
+
 
 
 
