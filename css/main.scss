@@ -8,16 +8,10 @@ $subhead-font: Lato, sans-serif;
   font-family: $subhead-font;
   font-weight: 200;
   font-size: 101%;
+  cursor: url(../media/cursor/pointer_final.png), auto;
   -webkit-font-smoothing: antialiased;
 }
 
-html {
-  cursor: url(../media/cursor/pointer_final.png), auto;
-}
-
-#menu-wrap {
-  height: auto;
-}
 
 #menu-wrap:hover li:not(:hover):not(#cta)  {
   color: rgba(255,255,255,0.6) !important;
@@ -333,11 +327,12 @@ $gallery-width: 100vw;
     display: flex;
     justify-content: space-between;
     .social {
-      width: 4vw;
-      height: 4vw;
+      width: 5vw;
+      height: 5vw;
       img {
         border-radius: 12%;
-        width: 100%;
+        width: 70%;
+        fill: #699980;
         transition: all 250ms;
         &:hover {
           transform: scale(1.2);

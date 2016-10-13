@@ -4,13 +4,8 @@
   font-family: Lato, sans-serif;
   font-weight: 200;
   font-size: 101%;
+  cursor: url(../media/cursor/pointer_final.png), auto;
   -webkit-font-smoothing: antialiased; }
-
-html {
-  cursor: url(../media/cursor/pointer_final.png), auto; }
-
-#menu-wrap {
-  height: auto; }
 
 #menu-wrap:hover li:not(:hover):not(#cta) {
   color: rgba(255, 255, 255, 0.6) !important; }
@@ -249,11 +244,12 @@ hr {
   display: flex;
   justify-content: space-between; }
   #social-icons .social {
-    width: 4vw;
-    height: 4vw; }
+    width: 5vw;
+    height: 5vw; }
     #social-icons .social img {
       border-radius: 12%;
-      width: 100%;
+      width: 70%;
+      fill: #699980;
       transition: all 250ms; }
       #social-icons .social img:hover {
         transform: scale(1.2); }

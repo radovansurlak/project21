@@ -301,10 +301,10 @@
 
     <div id="social-icons">
       <div class="social">
-        <a href="https://www.facebook.com/doclounge.aarhus"><img src="media/social/fb.png"></a>
+        <a href="https://www.facebook.com/doclounge.aarhus"><img src="media/social/fb.svg"></a>
       </div>
       <div class="social">
-        <a href="https://twitter.com/docloungeaarhus"><img src="media/social/twit.png"></a>
+        <a href="https://twitter.com/docloungeaarhus"><img src="media/social/twit.svg"></a>
       </div>
     </div>
 
