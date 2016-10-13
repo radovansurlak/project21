@@ -323,7 +323,7 @@ hr {
   #menu #logo {
     display: inline-block;
     position: absolute;
-    height: 4.5vw;
+    height: 7vw;
     left: 1.5vw;
     top: 0.6vw;
     transition: all 350ms ease; }
